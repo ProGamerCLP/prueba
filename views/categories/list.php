@@ -10,9 +10,9 @@
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+		<table class="table table-striped table-bordered table-dark">
 				<thead>
-					<tr>
+					<tr class="bg-info">
 						<th>Id</th>
 						<th>Nombre</th>
 						<th>Estado</th>
@@ -20,19 +20,25 @@
 					</tr>
 				</thead>
 				<tbody>
-					<?php foreach($Categories as $category): ?>
-						<tr>
-							<td><?php echo $category->id ?></td>
-							<td><?php echo $category->name ?></td>
-							<td><?php echo $category->status ?></td>
-							<td>
-								<a href="?controller=category&method=edit&id=<?php echo $category->id?>" class="btn btn-warning" title="Editar categoria">Editar</a>
-								<a href=?controller=category&method=delete&id=<?php echo $category->id?> class="btn btn-danger" title="Eliminar categoria">Eliminar</a>
-							</td>
-						</tr>
-					<?php endforeach ?>
+						<?php foreach($Categories as $category): ?>
+							<tr>
+								<td><?php echo $category->id ?></td>
+								<td><?php echo $category->name ?></td>
+								<td><?php echo $category->status ?></td>
+								<td>
+									<a href="?controller=category&method=edit&id=<?php echo $category->id?>" class="btn btn-warning" title="Editar categoria">Editar</a>
+									<a href=?controller=category&method=delete&id=<?php echo $category->id?> class="btn btn-danger" title="Eliminar categoria">Eliminar</a>
+								</td>
+							</tr>
+						<?php endforeach ?>
 				</tbody>
 			</table>
+		</table>
+				
+					
+							
+					
+				
 		</section>
 	</section>
 </main>

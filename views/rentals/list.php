@@ -10,9 +10,9 @@
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+		<table class="table table-bordered table-striped table-dark">
 				<thead>
-					<tr>
+					<tr class="bg-info">
 						<th>Id</th>
 						<th>Fecha de inicio</th>
 						<th>Fecha de fin</th>

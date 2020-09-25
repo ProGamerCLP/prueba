@@ -5,9 +5,9 @@
 		</div>
 
 		<section class="col-md-16 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-bordered table-dark">
 				<thead>
-					<tr>
+					<tr class="bg-info">
 						<th class="text-center">Id de categoría</th>
 						<th class="text-center">Nombre</th>
 						<th class="text-center">ID de estado</th>

@@ -10,9 +10,8 @@
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
-				<thead>
-					<tr>
+			<table class="table table-striped table-bordered table-dark">
+				<tr class="bg-info">>
 						<th>Id</th>
 						<th>Nombres</th>
 						<th>Email</th>
@@ -32,7 +31,7 @@
 							<td>
 								<a href="?controller=user&method=edit&id=<?php echo $user->id ?>" class="btn btn-warning">Editar</a>
 				      	
-				      	<a href="?controller=user&method=delete&id=<?php echo $user->id ?>" class="btn btn-danger">Eliminar</a>	
+				      			<a href="?controller=user&method=delete&id=<?php echo $user->id ?>" class="btn btn-danger">Eliminar</a>	
 							</td>
 						</tr>
 					<?php endforeach ?>

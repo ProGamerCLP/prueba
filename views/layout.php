@@ -10,6 +10,9 @@
 </head>
 <body>
 	<header>
+
+	
+
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		 	<a class="navbar-brand" href="?controller=home">Home</a>
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +44,13 @@
 		      	</li>				      	
 		    </ul>
 		  </div>
-		</nav>			
+		</nav>
+		<div class="progress">
+  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="110" aria-valuemin="0" aria-valuemax="110"></div>
+</div>			
 	</header>
 
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 </body>
-</html>

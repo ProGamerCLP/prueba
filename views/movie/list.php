@@ -10,9 +10,9 @@
 		</div>
 
 		<section class="col-md-12 flex-nowrap table-responsive">
-			<table class="table table-striped table-hover">
+			<table class="table table-striped table-bordered table-dark">
 				<thead>
-					<tr>
+					<tr class="bg-info">
 						<th>Id</th>
 						<th>Nombres</th>
 						<th>Descripción</th>
@@ -29,10 +29,13 @@
 							<td><?php echo $movie->description ?></td>
 							<td><?php echo $movie->usuario ?></td>
 							<td><?php echo $movie->estado ?></td>
+							
 							<td>
-								<a href="?controller=movie&method=edit&id=<?php echo $movie->id?>" class="btn btn-warning" title="Editar Usuario">Editar</a>
-								<a href="?controller=movie&method=delete&id=<?php echo $movie->id?>" class="btn btn-danger" title="Eliminar Usuario">Eliminar</a>
-								<a href="?controller=movie&method=seeCategories&id=<?php echo $movie->id?>" class="btn btn-success" >Ver Categorías</a>
+
+								<a href="?controller=movie&method=edit&id= <?php echo $movie->id?>" class="btn btn-warning" title="Editar Renta">Editar</a>
+								<a href="?controller=movie&method=delete&id= <?php echo $movie->id?>" class="btn btn-danger" title="Eliminar Renta">Eliminar</a>
+								<a href="?controller=movie&method=seeCategories&id= <?php echo $movie->id?>" class="btn btn-success" >Ver Categorías</a>
+
 							</td>
 						</tr>
 					<?php endforeach ?>
